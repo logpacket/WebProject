@@ -1,0 +1,42 @@
+body {
+  background: url(../img/10.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul li {
+  display: inline;
+  padding: 50px;
+}
+
+#logo > ul {
+  margin: 0px;
+}
+
+#logo > ul > li.google > a > img {
+  width: 128px;
+  height: 128px;
+}
+#logo > ul > li.facebook > a > img {
+  width: 128px;
+  height: 128px;
+}
+#logo > ul > li.twitter > a > img {
+  width: 128px;
+  height: 128px;
+}
+
+#clock{
+  top: 40%;
+  left: 30%;
+  color:#ffffff;
+  font-size: 1000%;
+  text-align:center;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px #2a292b;
+}
