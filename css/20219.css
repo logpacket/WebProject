@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "weston";
+    src:url("../font/Weston Light Free.otf") format("opentype");
+}
+@@font-face {
+  font-family: "dynalight";
+  src:url("../font/Dynalight-Regular.ttf");
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+html{
+  margin: 0;
+  padding: 0;
+}
+.nav-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  opacity: 0.6;
+  position: sticky;
+  top: 0;
+}
+.nav-el{
+  float: right;
+}
+.active{
+  background-color: blue;
+}
+li a{
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #999;
+}
+#welcome{
+  background-size: auto;
+  background-image:url("../img/winter-sky-stars.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+}
+.headline{
+  font-size: 200%;
+  text-align: center;
+  color:rgb(176, 220, 240);
+  padding-top:235px;
+  padding-bottom: 266px;
+  margin: 0;
+  font-family: weston;
+}
+.profile{
+  background-color: rgba(74, 84, 78, 0.5);
+  margin:0;
+  padding: 50px;
+}
+.profile-box{
+  text-align: center;
+  border: 3px rgb(62, 87, 162);
+  border-style:double;
+}
+.subtitle{
+  font-family: dynalight;
+  margin: 0;
+}
+.content-list{
+  list-style:none;
+  padding: 0;
+}
+.content{
+  font-size: 130%;
+  border-bottom: 1px solid gray;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#major{
+  text-align: center;
+  padding: 10px;
+  background-image: url("../img/pattern.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contact{
+  background-color: rgba(30, 30, 31, 0.7);
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+.content-contact{
+  font-size: 130%;
+  border: 1px rgb(46, 24, 88);
+  border-style: solid;
+  margin: 30px;
+  color:rgb(173, 177, 222);
+}
+a{
+  color:rgb(173, 177, 222);
+  text-decoration: none;
+}
