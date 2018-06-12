@@ -1,0 +1,15 @@
+html, body, h1, h2, h3, nav, div {
+    margin: 0px;
+}
+
+nav.SupperBack {
+    background-image: url("../img/nav-background.jpg");
+}
+nav.SupperBack h1 {
+    font-size: 500%;
+    text-align: center;
+    color: #ffffff;
+    padding: 10%;
+    text-shadow: 1px 1px #000000;
+}
+
