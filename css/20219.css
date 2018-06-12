@@ -42,7 +42,7 @@ li a:hover {
     background-color: #999;
 }
 #welcome{
-  background-size: auto;
+  background-size:1900px;
   background-image:url("../img/winter-sky-stars.jpg");
   background-repeat:no-repeat;
   background-position: center;
