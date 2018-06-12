@@ -12,4 +12,6 @@ nav.SupperBack h1 {
     padding: 10%;
     text-shadow: 1px 1px #000000;
 }
-
+div.port-list>ul>li {
+    display: inline-block;
+}
