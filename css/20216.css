@@ -20,6 +20,21 @@ body.bg {
 
 }
 
+.middle {
+    padding: 8%;
+    margin: 0;
+    padding-bottom: 4%;
+    box-sizing: border-box;
+    display: block;
+    color: #333333;
+
+}
+
+.middle_content {
+    box-sizing: border-box;
+    position: relative;
+}
+
 .profile {
     position: relative;
     display:block;
@@ -48,4 +63,9 @@ img {
 .content {
     padding: 4px 6%;
     margin: 0 0 10px;
+}
+
+ul li {
+    font-size:30px;
+    font-family: "나눔바른고딕";
 }
