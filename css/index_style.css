@@ -23,3 +23,13 @@ div.port-list>ul>li {
 figcaption {
     text-align: center;
 }
+
+img {
+    width: 150px;
+    height: 150px
+}
+
+ul{
+    text-align: center;
+    padding: 0 0;
+}
