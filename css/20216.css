@@ -44,3 +44,8 @@ img {
     width: 150px;
     text-align: center;
 }
+
+.content {
+    padding: 4px 6%;
+    margin: 0 0 10px;
+}
